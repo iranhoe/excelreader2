@@ -1,0 +1,30 @@
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\bin\Debug\ReporteExcel.exe.config
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\bin\Debug\ReporteExcel.exe
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\bin\Debug\ReporteExcel.pdb
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.Form1.resources
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.csproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.exe
+c:\users\usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.pdb
+C:\Users\Usuario\documents\visual studio 2012\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.csproj.ResolveComReference.cache
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\bin\Debug\ReporteExcel.exe.config
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.csproj.ResolveComReference.cache
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.exe
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.pdb
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\bin\Debug\ReporteExcel.exe
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\bin\Debug\ReporteExcel.pdb
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.csprojResolveAssemblyReference.cache
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.Form1.resources
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.Properties.Resources.resources
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\obj\Debug\ReporteExcel.csproj.GenerateResource.Cache
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\bin\Debug\246 PN copia.xlsx
+C:\Users\Iran\Documents\Visual Studio 2013\Projects\ReporteExcel\ReporteExcel\bin\Debug\246 PN.xlsx
+C:\Users\Iran\Source\Repos\excelreader\ReporteExcel\bin\Debug\ReporteExcel.exe.config
+C:\Users\Iran\Source\Repos\excelreader\ReporteExcel\obj\Debug\ReporteExcel.csproj.ResolveComReference.cache
+C:\Users\Iran\Source\Repos\excelreader\ReporteExcel\obj\Debug\ReporteExcel.exe
+C:\Users\Iran\Source\Repos\excelreader\ReporteExcel\obj\Debug\ReporteExcel.pdb
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\bin\Debug\ReporteExcel.exe.config
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.csproj.ResolveComReference.cache
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.exe
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.pdb
