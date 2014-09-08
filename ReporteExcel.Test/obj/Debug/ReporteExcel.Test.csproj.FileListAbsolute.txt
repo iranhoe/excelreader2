@@ -1,0 +1,8 @@
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\obj\Debug\ReporteExcel.Test.csprojResolveAssemblyReference.cache
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\bin\Debug\246PN.xlsx
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\bin\Debug\ReporteExcel.Test.dll
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\bin\Debug\ReporteExcel.Test.pdb
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\bin\Debug\ReporteExcel.exe
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\bin\Debug\ReporteExcel.pdb
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\obj\Debug\ReporteExcel.Test.dll
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel.Test\obj\Debug\ReporteExcel.Test.pdb

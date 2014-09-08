@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ReporteExcel
 {
-    class GetData
+    public class GetData
     {
 
         SqlConnection _dconn;
@@ -28,6 +28,41 @@ namespace ReporteExcel
             }
             Task.WaitAll(wait);
             return tableList;
+        }
+
+        public List<Model.Asiento> OrderList(List<Model.Asiento> asientos) 
+        {
+            List<Model.Asiento> newAsientosList = new List<Model.Asiento>();
+            
+            foreach (Model.Asiento item in asientos)
+            {
+                if (newAsientosList.Where(x => x.ComponentPart.Equals(item.ComponentPart)).Count() == 0)
+                    newAsientosList.Add(item);
+                var toAdd = asientos.Where(x => x.ParentPort.Equals(item.ComponentPart)).ToList();
+                if (toAdd.Count > 0)
+                {
+                    toAdd = OrderList(toAdd);
+                    newAsientosList.AddRange(toAdd);
+                }
+            }
+            return newAsientosList;
+        }
+
+        public List<Model.Asiento> ConvertDataTableToList(DataTable dt)
+        {
+            var result = (from rw in dt.AsEnumerable()
+                          select new Model.Asiento()
+            {
+                ComponentPart = rw["ComponentPart"].ToString(),
+                Descripcion = rw["Descripcion"].ToString(),
+                EmpLevel = Convert.ToInt32(rw["EmpLevel"]),
+                Family = Convert.ToInt32(rw["Family"]),
+                ItemType = rw["ItemType"].ToString(),
+                ParentPort = rw["ParentPort"].ToString(),
+                Quantity = Convert.ToDouble(rw["Quantity"])
+            }).ToList();
+
+            return result;
         }
 
         private void RowGenerator(int i, string asiento)

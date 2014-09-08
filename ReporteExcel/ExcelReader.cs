@@ -8,7 +8,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace ReporteExcel
 {
-    class ExcelReader
+    public class ExcelReader
     {
         private List<string> listaAsientos = new List<string>();
 
