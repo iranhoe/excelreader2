@@ -33,3 +33,4 @@ C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\bin\Debug\ReporteExcel.pdb
 C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.Form1.resources
 C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.Properties.Resources.resources
 C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.csproj.GenerateResource.Cache
+C:\Users\Iran\Source\Repos\excelreader2\ReporteExcel\obj\Debug\ReporteExcel.csprojResolveAssemblyReference.cache

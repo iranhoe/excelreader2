@@ -42,7 +42,7 @@ namespace ReporteExcel.Test
             var result = getData.OrderList(asientosList);
 
             Assert.AreEqual(491, result.Count);
-            Assert.AreEqual(3,result[100].EmpLevel);
+            Assert.AreEqual(3,result[99].EmpLevel);
         }
     }
 }

@@ -33,18 +33,38 @@ namespace ReporteExcel
         public List<Model.Asiento> OrderList(List<Model.Asiento> asientos) 
         {
             List<Model.Asiento> newAsientosList = new List<Model.Asiento>();
-            
+
             foreach (Model.Asiento item in asientos)
             {
                 if (newAsientosList.Where(x => x.ComponentPart.Equals(item.ComponentPart)).Count() == 0)
-                    newAsientosList.Add(item);
-                var toAdd = asientos.Where(x => x.ParentPort.Equals(item.ComponentPart)).ToList();
-                if (toAdd.Count > 0)
                 {
-                    toAdd = OrderList(toAdd);
-                    newAsientosList.AddRange(toAdd);
+                    newAsientosList.Add(item);
+                    var toAdd = asientos.Where(x => x.ParentPort.Equals(item.ComponentPart) && x.Family == item.Family).ToList();
+                    if (toAdd.Count > 0)
+                    {
+                        foreach (var item2 in toAdd)
+                        {
+                            var hijos = r(item2, asientos);
+                            newAsientosList.AddRange(hijos);
+                        }
+                    }
                 }
             }
+            return newAsientosList;
+        }
+
+        private List<Model.Asiento> r(Model.Asiento asiento, List<Model.Asiento> asientos)
+        {
+            List<Model.Asiento> newAsientosList = new List<Model.Asiento>();
+            var hijos = asientos.Where(x => x.ParentPort.Equals(asiento.ComponentPart) && x.Family == asiento.Family).ToList();
+            newAsientosList.Add(asiento);
+            foreach(var item in hijos)
+            {
+                var hijosDeHijos = r(item, asientos);
+                if (hijosDeHijos.Count != 0)
+                    newAsientosList.AddRange(hijosDeHijos);
+            }
+
             return newAsientosList;
         }
 
